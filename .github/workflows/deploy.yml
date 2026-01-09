@@ -4,6 +4,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main] # ทำงานเมื่อมีการ Push ไปที่ main
+  workflow_dispatch:
 
 permissions:
   contents: read
